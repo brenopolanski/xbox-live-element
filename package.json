@@ -1,0 +1,29 @@
+{
+    "name": "xbox-live",
+    "version": "0.1.0",
+    "description": "Web Component wrapper for Xbox Live using Polymer",
+    "author": "Breno Polanski",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brenopolanski/xbox-live"
+    },
+    "keywords": [
+        "Xbox Live",
+        "Web Component"
+    ],
+        "author": {
+        "name": "Breno Polanski",
+        "email": "brenopolanski@gmail.com",
+        "web": "http://brenopolanski.com",
+        "twitter": "brenopolanski"
+    },
+    "bugs": {
+        "url": "https://github.com/brenopolanski/xbox-live/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-connect": "~0.5.0",
+        "grunt-cli": "~0.1.9"
+    }
+}
