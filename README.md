@@ -6,7 +6,7 @@ Web Component wrapper for Xbox Live using Polymer.
 
 ## Demo
 
-> [Check it live]().
+> [Check it live](http://brenopolanski.github.io/xbox-live/).
 
 ## Usage
 
