@@ -8,6 +8,8 @@ Web Component wrapper for Xbox Live using Polymer.
 
 > [Check it live](http://brenopolanski.github.io/xbox-live/).
 
+![Xbox Live Avatar](http://avatar.xboxlive.com/avatar/Breno%20Polanski/avatar-body.png)
+
 ## Usage
 
 1. Import Web Components' polyfill:
