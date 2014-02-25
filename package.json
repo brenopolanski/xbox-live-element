@@ -2,7 +2,6 @@
     "name": "xbox-live",
     "version": "0.1.0",
     "description": "Web Component wrapper for Xbox Live using Polymer",
-    "author": "Breno Polanski",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -12,7 +11,7 @@
         "Xbox Live",
         "Web Component"
     ],
-        "author": {
+    "author": {
         "name": "Breno Polanski",
         "email": "brenopolanski@gmail.com",
         "web": "http://brenopolanski.com",
