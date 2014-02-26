@@ -6,9 +6,9 @@ Web Component wrapper for Xbox Live using Polymer.
 
 ## Demo
 
-> [Check it live](http://brenopolanski.github.io/xbox-live/).
-
 ![Xbox Live Avatar](http://avatar.xboxlive.com/avatar/Breno%20Polanski/avatar-body.png)
+
+> [Check it live](http://brenopolanski.github.io/xbox-live/).
 
 ## Usage
 
@@ -59,6 +59,7 @@ In order to run it locally you'll need a basic server setup.
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
 `name`     | *string*                  | `avatarname`        | Xbox Live username
+`avatar`   | `full`, `large`, `small`  | `full`              | Size avatar
 
 ## Browser Support
 
