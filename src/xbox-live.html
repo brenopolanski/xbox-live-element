@@ -1,12 +1,30 @@
-<polymer-element name="xbox-live" attributes="name">
+<polymer-element name="xbox-live" attributes="name avatar">
 
     <template>
-        <img src="http://avatar.xboxlive.com/avatar/{{name}}/avatar-body.png" alt="Xbox Live Avatar">
+        <img src="http://avatar.xboxlive.com/avatar/{{name}}/{{avatar}}.png" alt="Xbox Live Avatar">
     </template>
 
     <script>
         Polymer('xbox-live', {
-            name: 'avatarname'
+            name: 'avatarname',
+            avatar: 'avatar-body',
+            created: function () {
+            	var a = this.getAttribute('avatar');
+
+            	switch (a) {
+            	case 'full':
+            		this.setAttribute('avatar', 'avatar-body');
+            		break;
+            	case 'large':
+            		this.setAttribute('avatar', 'avatarpic-l');
+            		break;
+            	case 'small':
+            		this.setAttribute('avatar', 'avatarpic-s');
+            		break;
+            	default:
+            		this.setAttribute('avatar', 'avatar-body');
+            	}
+            }
         });
     </script>
 
