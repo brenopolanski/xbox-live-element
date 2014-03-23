@@ -81,4 +81,4 @@ For detailed changelog, check [Releases](https://github.com/brenopolanski/xbox-l
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
