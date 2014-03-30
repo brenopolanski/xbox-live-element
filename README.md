@@ -8,7 +8,7 @@ Web Component wrapper for Xbox Live using Polymer.
 
 ![Xbox Live Avatar](http://avatar.xboxlive.com/avatar/Breno%20Polanski/avatar-body.png)
 
-> [Check it live](http://brenopolanski.github.io/xbox-live/).
+> [Check it live](http://brenopolanski.github.io/xbox-live-element).
 
 ## Usage
 
